@@ -1,7 +1,7 @@
-print("Hello? module")
+import tkinter as tk
 
-pi= 3.14
-
-def summa(a,b):
-    """Складывает два числа"""
-    return a+b
+def study_entry():
+    window = tk.Toplevel()
+    window.title("Поля ввода")
+    window.geometry("300x200")
+    window.mainloop()
